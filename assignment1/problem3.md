@@ -1,1 +1,1 @@
-![Image of teraterm Output](https://github.com/grunhurdb/embsys100)
+![Image of teraterm Output](https://raw.githubusercontent.com/grunhurdb/embsys100/master/assignment1/output.JPG)
