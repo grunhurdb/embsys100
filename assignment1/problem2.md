@@ -3,6 +3,6 @@ Two's complement is used to represent negative numbers because it allows for add
 As a 4 bit example -3 + 1 = -2
 
   1101 (-3)
-+ 0001 ( 1)
-= 1110
+\+ 0001 ( 1)
+\= 1110
 
