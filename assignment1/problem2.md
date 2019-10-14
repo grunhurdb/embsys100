@@ -1,0 +1,1 @@
+Two's complement is used to represent negative numbers because it allows for addition and subtraction of both positive numbers and negative numbers.  If one were to represent negative numbers with one's compliment addition and subtraction would not work.
