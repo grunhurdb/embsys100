@@ -1,4 +1,5 @@
 1. a) Morse code is an enchoding scheme to represent the letters (a-z) and numbers (0-9).
+
     b) Alfred Vail developed Morse code.
 	
 	
