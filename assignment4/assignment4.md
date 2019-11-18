@@ -1,4 +1,5 @@
 1. a) See code in 1a_code
+
    b) ![Image of Bit Alias Assembny](
 https://raw.githubusercontent.com/grunhurdb/embsys100/master/assignment4/Bit_Alias.JPG)
 
