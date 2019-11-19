@@ -5,8 +5,7 @@
 
 int Stack[max_size];
 
-int nextIn = 0;
-int nextOut = 0;
+int pointer = 0;
 int size = 0;
 
 ///
@@ -15,8 +14,7 @@ int size = 0;
 
 void initialize()
 {
-    nextIn = 0;
-    nextOut = 0;
+    pointer = 0;
     size = 0;   
 }
 /// pushes a value onto the stack
@@ -25,13 +23,9 @@ void push( int value )
   if ( isFull() )
     return;
   
-  Stack[nextIn] = value;
+  Stack[pointer] = value;
   
-  if ((max_size-1) == nextIn)
-    nextIn=0;
-  else
-    nextIn++;
-  
+  pointer++;
   size++;
 
 }
@@ -41,12 +35,9 @@ int pop ( void )
    if ( isEmpty() )
      return 0;
    
-   int toReturn = Stack[nextOut];
+   int toReturn = Stack[pointer-1];
   
-   if ((max_size-1) == nextOut)
-    nextOut=0;
-   else
-    nextOut++;
+   pointer--;
    size--;
      
    return toReturn;
